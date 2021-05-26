@@ -6,7 +6,7 @@ from datetime import datetime
 
 function_url = os.getenv("FUNCTION_URL")  # change this on each Pi
 sensor_name = os.getenv("SENSOR")
-sample_duration = 30  # seconds
+sample_duration = 60  # seconds
 
 sensor = None
 sensor_type = os.getenv("SENSOR_TYPE", "bme280")
