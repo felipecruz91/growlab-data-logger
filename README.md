@@ -110,8 +110,8 @@ pip3 install -r requirements.txt
 Then run the sender app:
 
 ```bash
-FUNCTION_URL=http://192.168.0.21:8080/function/submit-sample \
-  SENSOR=my-shed \
+FUNCTION_URL=http://192.168.1.42:8080/function/submit-sample \
+  SENSOR=bme280 \
   python3 main.py
 ```
 
